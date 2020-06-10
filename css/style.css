@@ -1,0 +1,171 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 1151px;
+	height: 1700px;
+	background:#faf8e1;
+	float: none;
+	margin: 0 auto;
+}
+.header{
+	width: 1151px;
+	height: 70px;
+	background:#000000;
+}
+.header .icon0{
+	width: 250px;
+	height: 0px;
+	background:#000000;
+	margin-left: 450px;
+	letter-spacing:5px;
+	font-size: 35px;
+}
+.icon0 h1{
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Yeseva One', cursive;
+}
+.header .icon1{
+	width: 250px;
+	height: 60px;
+	background:#000000;
+	float: left;
+}
+.icon1 img{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.header .icon2{
+	width: 250px;
+	height: 60px;
+	background:#000000;
+	float: right;
+}
+.icon2 img{
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.content{
+	width: 1151px;
+	height: 740px;
+	background:#000000;
+}
+.media{
+	width: 1151px;
+	height: 700px;
+	margin-top: -10px;
+}
+.menu{
+	width: 1151px;
+	height: 55px;
+	background:#000000;
+	margin-top: -10px;
+	margin-left: 0px;
+	border-bottom:2px solid #FFFFFF;
+}
+.menu ul li{
+	list-style: none;
+	font-size: 29px;
+    padding-bottom: 25px;
+}
+.menu ul li{
+	float:left;
+	margin-left: 40px;
+	line-height: 50px;
+}
+.menu ul li a{
+	color:#369347;
+	text-decoration: none;
+	text-align:center;
+	font-family: 'Yeseva One', cursive;
+}
+#beobor{
+	width: 1151px;
+	height: 400px;
+	background: #000000;
+	margin: 0 auto;
+}
+#beobor h4{
+	margin-bottom: 20px;
+	letter-spacing:15px;
+	font-size: 20px;
+	text-align: center;
+}
+.bungbeo {
+	width: 1151px;
+	height: 150px;
+	margin-top: -200px;
+	margin-left: 450px;
+}
+.bungbeo img{
+	width: 230px;
+	height: 45px;
+	margin-top: 150px;
+}
+.left{
+	width: 370px;
+	height: 175px;
+	background: #000000;
+	float: left;
+	margin-left: 10px;
+	margin-top: -170px;
+}
+.left img{
+	width: 370px;
+	height: 230px;
+	margin-top: -110px;
+	margin-left: 0px;
+}
+.left p{
+	margin-left: 10px;
+	letter-spacing:10px;
+}
+.center{
+	width: 370px;
+	height: 175px;
+	background: #000000;
+	float: left;
+	margin-left: 10px;
+	margin-top: -170px;
+}
+.center img{
+	width: 370px;
+	height: 230px;
+	margin-top: -110px;
+	margin-left: 0px;
+}
+.center p{
+	margin-left: 10px;
+	letter-spacing:10px;
+}
+.right{
+	width: 370px;
+	height: 175px;
+	background: #000000;
+	float: left;
+	margin-left: 10px;
+	margin-top: -170px;
+}
+.right img{
+	width: 370px;
+	height: 230px;
+	margin-top: -110px;
+	margin-left: 0px;
+}
+.right p{
+	margin-left: 10px;
+	letter-spacing:10px;
+}
+#footer {
+	width: 1151px;
+	height: 700px;
+	margin-top: 42px;
+}
+#footer img{
+	width: 1151px;
+	height: 600px;
+	margin-top: 42px;
+}
