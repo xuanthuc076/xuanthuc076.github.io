@@ -4,9 +4,9 @@
 }
 #wrapper{
 	width: 1920px;
-	height: 3735px;
+	height: 3600px;
 	margin: 0 auto;
-	font-family: 'Kurale', serif;
+	font-family: 'Raleway', sans-serif;
 }
 .container{
 	width: 1183px;
@@ -14,8 +14,8 @@
 }
 .header{
 	width: 1920px;
-	height: 925px;
-	background-image:url("../shelter-banner.png");
+	height: 900px;
+	background-image:url(../late-night-fishing-4k-vl.png);
 }
 .header .logo{
 	width: 50%;
@@ -23,16 +23,16 @@
 	float: left;
 }
 .logo h1{
-	margin-left: 373px;
+	margin-left: 350px;
 	margin-top: 37px;
-	color: #f1cdb3;
+	color: #fefe8c;
 	font-size: 45px;
 	letter-spacing:2px;
 	cursor:pointer;
 	
 }
 .logo p{
-	margin-left: 375px;
+	margin-left: 350px;
 	color: #FFFFFF;
 	font-size: 17px;
 	letter-spacing: 2.5px;
@@ -42,24 +42,28 @@
 	height: 162px;
 	float: left;
 }
-.menufake{
-	width: 591px;
-	height: 162px;
-}
 .menu ul{
 	list-style: none;
+    position:fixed; /*Cho menu cố định 1 vị trí với top và left*/
+	
 }
 .menu ul li{
 	float: left;
-	margin-left: 45px;
-	margin-top: 75px;
-	font-size: 17px;
+	margin-left: 90px;
+	margin-top: 57px;
+	font-size: 20px;
 	color: #FFFFFF;
-	cursor:pointer;
+	font-family: 'Raleway', sans-serif;
+	cursor: pointer;
+
 }
-.menu li:hover{
-	color: #F1CDB3;
-	transition-duration: 0.2s;
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.menu ul li a:hover{
+	color: #fefe8c;
+/*	transition-duration: 0.2s;*/
 }
 .header .banner{
 	width: 1920px;
@@ -70,480 +74,99 @@
 	height: 764px;
 	float: left;
 }
-.banleft h1{
-	margin-left: 373px;
-	margin-top: 199px;
-	margin-bottom: 48px;
-	font-size: 60px;
-	line-height: 75px;
-	color: #FFFFFF;
-	cursor: help;
-}
-.banleft p{
-	margin-left: 373px;
-	font-size: 17px;
-	margin-bottom: 48px;
-	color: #FFFFFF;
+.banright{
+	width: 960px;
+	height: 764px;
+	float: left;
 }
 .myButton {
-	background-color:#f1cdb3;
+	background-color:#fefe8c;
 	border-radius:45px;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Kurale', serif;
-	font-size:17px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
 	padding:20px 76px;
 	text-decoration:none;
 	margin-left: 373px;
-	color: #000000;
+	margin-top: 373px;
+	color: #3e4f7e;
 }
 .myButton:hover {
 	background-color:#130901;
-	color:#FFFFFF;
+	color:#fefe8c;
 	transition-duration: 0.4s;
 }
 .myButton:active {
 	position:relative;
 	top:1px;
 }
-.banright{
-	width: 960px;
-	height: 764px;
-	float: left;
-}
 /*.header*/
 .content{
 	width: 1920px;
-	height: 2449px;
+	height: 1802px;
 	background:#9CD7DE; 
 }
-.content .cozyhouse{
+.cozyhouse{
 	width: 1920px;
-	height: 587px;
-	background: #fafafa;
-}
-.cozyfake{
-	width: 1183px;
-	height: 587px;
-	margin: 0 auto;
+	height: 900px;
+	background-image:url(../late-night-fishing-5k-vl.png);
 }
 .cozyleft{
-	width: 592px;
-	height: 587px;
+	width: 50%px;
+	height: 900px;
 	float: left;
-}
-.cozyleft img{
-	margin-left: 168px;
-	margin-top: 72px;
-	cursor:progress;
 }
 .cozyright{
-	width: 591px;
-	height: 587px;
+	width: 950px;
+	height: 900px;
 	float: left;
-}
-.cozyright h1{
-	margin-top: 100px;
-	margin-bottom: 38px;
-	margin-left: 3px;
-	font-size: 40px;
-	letter-spacing: 0.2px;
-	line-height: 50px;
-	cursor: pointer;
 }
 .cozyright p{
-	margin-left: 3px;
-	font-size: 17px;
-}
-.content .ourfriend{
-	width: 1920px;
-	height: 829px;
-	background: #f6f6f6;
-}
-.lookingfull{
-	width: 1183px;
-	height: 829px;
-	margin: 0 auto;
-	position:relative;
-}
-.looking{
-	width: 423px;
-	height: 172px;
-	margin: 0 auto;
-}
-.looking h2{
-	text-align: center;
-	font-size: 40px;
-	padding-top: 65px;
-	line-height: 50px;
-	letter-spacing: 0.2px;
-	cursor: pointer;
-}
-.lookingcenter{
-	width: 1183px;
-	height: 528px;
-	padding-top: 52px;
-	box-sizing: border-box;	
-}
-.boxleft{
-	width: 132px;
-	height: 427px;
-	float: left;
-}
-.buttonleft {
-	background-color:#f1cdb3;
-	border-radius:45px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Kurale', serif;
-	font-size:17px;
-	padding:10px 15px;
-	text-decoration:none;
-	margin-left: 10px;
-	color: #000000;
-	margin-top: 188px;
-}
-.buttonleft:hover {
-	background-color:#130901;
-	color:#FFFFFF;
-	transition-duration: 0.4s;
-}
-.buttonleft:active {
-	position:relative;
-	top:1px;
-}
-.boxfull{
-	width: 918px;
-	height: 427px;
-	margin: 0 auto;
-}
-.box1{
-	width: 270px;
-	height: 426px;
-	background:#FFFFFF;
-	float: left;
-	margin:left;
-}
-.box1 p{
-	text-align: center;
-	font-size: 25px;
-}
-.boxbutton1 {
-	background-color:#f1cdb3;
-	border-radius:45px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Kurale', serif;
-	font-size:17px;
-	padding:10px 46px;
-	text-decoration:none;
-	margin-left: 45px;
-	color: #000000;
-	margin-top: 10px;
-}
-.boxbutton1:hover {
-	background-color:#130901;
-	color:#FFFFFF;
-	transition-duration: 0.4s;
-}
-.boxbutton1:active {
-	position:relative;
-	top:1px;
-}
-.box2{
-	width: 270px;
-	height: 426px;
-	background:#FFFFFF;
-	float: left;
-	margin-left: 54px;
-}
-.box2 img{
-	margin-left: 25px;
-}
-.box2 p{
-	text-align: center;
-	font-size: 25px;
-}
-.boxbutton2 {
-	background-color:#f1cdb3;
-	border-radius:45px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Kurale', serif;
-	font-size:17px;
-	padding:10px 46px;
-	text-decoration:none;
-	margin-left: 45px;
-	color: #000000;
-	margin-top: 10px;
-}
-.boxbutton2:hover {
-	background-color:#130901;
-	color:#FFFFFF;
-	transition-duration: 0.4s;
-}
-.boxbutton2:active {
-	position:relative;
-	top:1px;
-}
-.box3{
-	width: 270px;
-	height: 426px;
-	background:#FFFFFF;
-	float: left;
-	margin-left: 54px;
-}
-.box3 img{
-	margin-top: 30px;
-	margin-top: 30px;
-}
-.box3 p{
-	text-align: center;
-	font-size: 25px;
-}
-.boxbutton3 {
-	background-color:#f1cdb3;
-	border-radius:45px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Kurale', serif;
-	font-size:17px;
-	padding:10px 46px;
-	text-decoration:none;
-	margin-left: 45px;
-	color: #000000;
-	margin-top: 10px;
-}
-.boxbutton3:hover {
-	background-color:#130901;
-	color:#FFFFFF;
-	transition-duration: 0.4s;
-}
-.boxbutton3:active {
-	position:relative;
-	top:1px;
-}
-.lookingafter{
-	width: 423px;
-	height: 131px;
-	margin: 0 auto;
-}
-.myButton2 {
-	background-color:#f1cdb3;
-	border-radius:45px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Kurale', serif;
-	font-size:17px;
-	padding:20px 76px;
-	text-decoration:none;
-	margin-left: 60px;
-	color: #000000;
-	margin-top: 19px;
-}
-.myButton3:hover {
-	background-color:#130901;
-	color:#FFFFFF;
-	transition-duration: 0.4s;
-}
-.myButton3:active {
-	position:relative;
-	top:1px;
-}
-.boxright{
-	width: 132px;
-	height: 427px;
-	float: right;
-}
-.buttonright {
-	background-color:#f1cdb3;
-	border-radius:45px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Kurale', serif;
-	font-size:17px;
-	padding:10px 15px;
-	text-decoration:none;
-	margin-left: 75px;
-	color: #000000;
-	margin-top: 188px;
-}
-.buttonright:hover {
-	background-color:#130901;
-	color:#FFFFFF;
-	transition-duration: 0.4s;
-}
-.buttonright:active {
-	position:relative;
-	top:1px;
-}
-.content .ourshelter{
-	width: 1920px;
-	height: 604px;
-	background:#fafafa;
-}
-.ourshelter h2{
-	text-align: center;
-	font-size: 40px;
-	padding-top: 65px;
-	line-height: 50px;
-	letter-spacing: 0.2px;
-	cursor: pointer;
-}
-.shelterfull{
-	width: 1183px;
-	height: 604px;
-	margin: 0 auto;
-}
-.shelterone{
-	width: 423px;
-	height: 169px;
-	margin: 0 auto;
-}
-.sheltertwo{
-	width: 1183px;
-	height: 436px;
-	background-image: url("../shelter-preview3.5.png");
-	margin: 0 auto;
-}
-.textone{
-	width: 1183px;
-	height: 214px;
-	margin: 0 auto;
-}
-.textone ul{
-	list-style: none;
-}
-.textone ul li{
-	margin-left: 105px;
-	float: left;
-	margin-right: 53px;
-	margin-top: 151px;
-	cursor: pointer;
-}
-.texttwo{
-	width: 1183px;
-	height: 223px;
-	margin: 0 auto;
-}
-.texttwo ul{
-	list-style: none;
-	margin-left: 50px;
-}
-.texttwo ul li{
-	margin-left: 150px;
-	float: left;
-	cursor: pointer;
-	padding-right: 10px;
-	margin-top: 121px;
-}
-.content .inadition{
-	width: 1920px;
-	height: 432px;
-	background:#f6f6f6;
-}
-.inadfull{
-	width: 1183px;
-	height: 432px;
-	margin: 0 auto;
-}
-.inadleft{
-	width: 592px;
-	height: 430px;
-	float: left;
-}
-.inadleft img{
-	margin-top: 85px;
-	margin-left: 26px;
-	cursor: progress;
-}
-.inadright{
-	width: 591px;
-	height: 430px;
-	float: left;
-}
-.inadright h2{
-	margin-top: 68px;
-	font-size: 40px;
-	line-height: 50px;
-	margin-bottom: 25px;
-	letter-spacing: 0.2px;
-	cursor: pointer;
-}
-.myButton3 {
-	background-color:#f1cdb3;
-	border-radius:10px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Kurale', serif;
-	font-size:17px;
-	padding:12px 15px;
-	text-decoration:none;
-	margin-left: 2px;
-	margin-top: 13px;
-	color: #000000;
-}
-.myButton2:hover {
-	background-color:#130901;
-	color:#FFFFFF;
-	transition-duration: 0.4s;
-}
-.myButton2:active {
-	position:relative;
-	top:1px;
-}
-.inadright p{
-	margin-top: 20px;
-	font-size: 14px;
-	line-height: 20px;
-}
-/*.content*/
-.footer{
-	width: 1920px;
-	height: 363px;
-	background-image: url("../shelter-footter.png");
-}
-.foofull{
-	width: 1183px;
-	height: 363px;
-	margin: 0 auto;
-}
-.fooleft{
-	width: 380px;
-	height: 363px;
-	float: left;
-	cursor: progress;
-}
-.fooleft h3{
-	margin-top: 70px;
-	font-size: 35px;
-	line-height: 50px;
-	margin-left: 5px;
+	margin-left: 210px;
+	font-size: 15px;
+	margin-top: 200px;
+	font-family: 'Raleway', sans-serif;
 	color: #FFFFFF;
-	letter-spacing: 0.4px;
-	cursor: pointer;
 }
-.foocenter{
-	width: 423px;
-	height: 363px;
+.cozygaugau{
+	width: 1920px;
+	height: 900px;
+	background-image:url(../late-night-fishing-6k-vl.png);
+}
+.cozygaugau img {
+  border-radius: 8px;
+}
+.cozylulu{
+	width: 1920px;
+	height: 900px;
+	background-image:url(../late-night-fishing-7k-vl.png);
+}
+.cozylumot{
+	width: 960px;
+	height: 900px;
 	float: left;
-	cursor: progress;
 }
-.foocenter h3{
-	margin-top: 70px;
-	margin-left: 79px;
-	font-size: 35px;
-	line-height: 50px;
+.cozylunho {
+	width: 960px;
+	height: 300px;
+	margin-left: 340px;
+	margin-top:430px;
+}
+.cozylunho p{
 	color: #FFFFFF;
-	letter-spacing: 0.4px;
-	cursor: pointer;
 }
-/*.footer*/
+.cozyluhai{
+	width: 960px;
+	height: 900px;
+	float: left;
+}
+.cozyluto {
+	width: 960px;
+	height: 300px;
+	margin-left: 370px;
+	margin-top:430px;
+}
+.cozyluto p{
+	color: #FFFFFF;
+}
